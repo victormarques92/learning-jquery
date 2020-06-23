@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.horaescolha {
+    width: 167px;
+    background-color: #eee;
+    color: #fff;
+    position: absolute;
+    display: none;
+}
+
+button {
+    margin: 5px;
+}
+
+input {
+    margin-bottom: 25px;
+}

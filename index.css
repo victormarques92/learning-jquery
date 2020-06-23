@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    height: calc(100vh - 130px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jogos {
+    position: fixed;
+    width: 80%;
+    bottom: 10px;
+    left: calc(50% - 40%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.jogos a {
+    display: flex;
+    background: #DEDEDE;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: .25s ease all;
+}
+
+.titulo {
+    font-size: 100px;
+    color: #DDD;
+    text-shadow: 0px 0px 5px #AAA;
+    transition: .15s ease all;
+}
+.titulo:hover {
+    color: #CCC;
+}
